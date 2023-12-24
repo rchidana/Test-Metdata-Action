@@ -9,4 +9,4 @@ jobs:
     with:
       username: Anand
     secrets:
-      token: ${{ secrets.DB_USER }}
+      DB_USER: ${{ secrets.DB_USER }}
